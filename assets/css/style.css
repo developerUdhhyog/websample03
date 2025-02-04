@@ -482,14 +482,14 @@ form button:hover {
         width: 100% !important;
     }
 
-        .contact-number-div p{
-        font-size: 1rem;
+        .contact-number-div div p{
+        font-size: 1rem !important;;
     }
 }
 
 @media screen and (max-width: 414px){
     .contact-number-div div p{
-        font-size: 1rem;
+        font-size: 1rem !important;;
     }
     
     .contact-number-div div span svg{
