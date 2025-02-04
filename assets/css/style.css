@@ -496,8 +496,9 @@ form button:hover {
     }
 }
 
-.banner-section{
+.banner-section img{
     margin-top: 49px;
+    position: absolute;
 }
 
 .popup-layer{
