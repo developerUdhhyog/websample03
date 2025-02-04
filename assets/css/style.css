@@ -409,6 +409,9 @@ form button:hover {
     .why-grid{
         justify-content: center;
     }
+    .contact-number-div p{
+        font-size: 1rem;
+    }
 }
 @media screen and  (max-width: 1216px){
     .services-grid{
@@ -474,9 +477,16 @@ form button:hover {
         z-index: 99 !important;
         width: 100% !important;
     }
+
+        .contact-number-div p{
+        font-size: 1rem;
+    }
 }
 
 @media screen and (max-width: 414px){
+        .contact-number-div p{
+        font-size: 1rem;
+    }
     .footer-container{
         flex-direction: column;
     }
