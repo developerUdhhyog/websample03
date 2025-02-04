@@ -496,6 +496,10 @@ form button:hover {
     }
 }
 
+.banner-section{
+    margin-top: 49px;
+}
+
 .popup-layer{
     width: 80%;
     z-index: 999;
