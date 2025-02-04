@@ -424,6 +424,7 @@ form button:hover {
 @media screen and  (max-width: 1050px){
     .about-container{
         flex-direction: column;
+        margin: 0px !important;
     }
 }
 
