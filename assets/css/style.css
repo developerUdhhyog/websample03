@@ -485,10 +485,14 @@ form button:hover {
     .about-container{
         margin: 0px !important;
     }
-        header{
+    header{
         position: fixed !important;
         z-index: 99 !important;
         width: 100% !important;
+    }
+
+.contact-number-div div p{
+        font-size: 19px;
     }
 }
 
