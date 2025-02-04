@@ -1,0 +1,470 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: #8b8b8b;
+    padding: 6px 0px;
+}
+
+.div-header-section{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-left: 100px;
+    align-items: center;
+}
+
+/* About Us Section */
+.about-container {
+    /* width: 100%; */
+    /* max-width: 1000px; */
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    /* box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); */
+}
+
+.contact-number-div div p{
+    font-size: 30px;
+    color: white;
+}
+
+.contact-number-div div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.about-image {
+    flex: 1;
+}
+.about-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+.about-content {
+    flex: 1;
+    padding-left: 30px;
+}
+.about-content h2 {
+    font-size: 5rem;
+    color: #007BFF;
+    margin-bottom: 15px;
+}
+.about-content p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Why Choose Us Section CSS */
+.why-choose-us {
+    background-color: #f8fafc;
+    padding: 2rem 0;
+}
+
+.why-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #1f2937;
+    /* margin-bottom: 1rem; */
+}
+
+.why-text {
+    text-align: center;
+    color: #4b5563;
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+}
+
+/* Grid Layout */
+.why-grid {
+    display: flex   ;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    /* max-width: 1100px; */
+    margin: auto;
+}
+
+@media (min-width: 768px) {
+    .why-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Why Choose Us Items */
+.why-item {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.why-item:hover {
+    transform: translateY(-5px);
+}
+
+.why-item span {
+    margin-bottom: 10%;
+}
+
+.why-item h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #111827;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.why-item p {
+    color: #4b5563;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.why-grid > div{
+    width: 23%;
+}
+
+/* Services Section CSS */
+.services-item {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services-item:hover {
+    transform: translateY(-5px);
+}
+
+.services-item span {
+    margin-bottom: 10%;
+}
+
+.services-item h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #111827;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.services-item p {
+    color: #4b5563;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.services-choose-us {
+    background-color: white;
+    padding: 2rem 0;
+}
+
+.services-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #1f2937;
+    /* margin-bottom: 1rem; */
+}
+
+.services   -text {
+    text-align: center;
+    color: #4b5563;
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+}
+
+/* Grid Layout */
+.services-grid {
+    display: flex;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    /* max-width: 1100px; */
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.services-grid > div{
+    width: 28% ;
+}
+
+.installation-btn {
+    color: white;
+    background-color: #007BFF;
+    padding: 10px 19px;
+    border-radius: inherit;
+    margin-top: 3%;
+}
+
+.state-btn-div{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.state-btn-div > button {
+    margin-top: 6%;
+    width: fit-content;
+    padding: 8px 22px;
+    border-radius: 7px;
+    border: 1px solid transparent;
+    background: #e43630;
+    color: white;
+}
+
+@media (min-width: 768px) {
+    .why-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Testimonial Section CSS  */
+.testimonial-container {
+    /* width: 60%; */
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.testimonial-slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+.testimonial {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.testimonial p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+.testimonial h3 {
+    color: #555;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.testimonial img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.buttons {
+    margin-top: 15px;
+}
+.buttons button {
+    padding: 10px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+    transition: background 0.3s ease;
+}
+.buttons button:hover {
+    background-color: #0056b3;
+}
+
+.testimonial-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #1f2937;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.testimonial-text {
+    text-align: center;
+    color: #4b5563;
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.testimonial span svg{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 3%;
+}
+
+/* Footer Section CSS  */
+.footer {
+    background-color: #1a202c;
+    color: white;
+    padding: 2rem 0;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    /* grid-template-columns: 1fr; */
+    gap: 1.5rem;
+    flex-direction: column;
+}
+@media (min-width: 768px) {
+    .container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    margin-bottom: 0.5rem;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+p {
+    margin-bottom: 0.5rem;
+}
+form input, form select, form button {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+}
+form input, form select {
+    border: 1px solid #ccc;
+    color: black;
+}
+form button {
+    background-color: #3182ce;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #2c5282;
+}
+.text-blue-400 {
+    color: #63b3ed;
+}
+.text-blue-400:hover {
+    color: #4299e1;
+}
+.text-sm {
+    font-size: 0.875rem;
+}
+.text-gray-400 {
+    color: #cbd5e0;
+}
+.text-center {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.footer-container > div{
+    width: 23%;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* Media Queries */
+@media screen and  (max-width: 1216px){
+    .why-grid{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and  (max-width: 635px){
+    .why-grid{
+        justify-content: center;
+    }
+}
+@media screen and  (max-width: 1216px){
+    .services-grid{
+        justify-content: center;
+    }
+}
+@media screen and  (max-width: 900px){
+    .footer-container{
+        /* flex-direction: column; */
+    }
+}
+
+@media screen and  (max-width: 1050px){
+    .about-container{
+        flex-direction: column;
+    }
+}
+
+.popup-layer{
+    width: 80%;
+    z-index: 999;
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.content-container-landing{
+    position: absolute;
+}
+
+.popup-layer .contact-pop-up-form{
+    width: 351px;
+    padding: 30px;
+    box-shadow: 0px 0px 3px gray;
+    border-radius: 6px;
+    background: white;
+}
+#form-mobile, #form-name{
+    width: 96%;
+}
+
+.contact-pop-up-form form div label {
+    font-size: 21px;
+}
+
+.contact-pop-up-form form div input {
+    margin-top: 5px;
+}
+
+.contact-pop-up-form form div {
+    margin-top: 10px;
+}
+
+.contact-pop-up-form form button {
+    margin-top: 10px;
+}
