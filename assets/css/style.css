@@ -426,6 +426,57 @@ form button:hover {
     }
 }
 
+@media screen and  (max-width: 668px){
+    .state-btn-div > button{
+        margin-top: 6%;
+        width: fit-content;
+        padding: 5px 10px;
+        border-radius: 7px;
+        border: 1px solid transparent;
+        background: #e43630;
+        color: white;
+        font-size: 10px;
+    }
+
+    .installation-btn {
+        color: white;
+        background-color: #007BFF;
+        padding: 7px 16px;
+        border-radius: inherit;
+        margin-top: 3%;
+        font-size: 10px;
+    }
+
+    .footer-container > div{
+        width: 185px;
+    }
+
+    footer{
+        padding: 2rem 20px !important;
+    }
+
+    .services-grid > div{
+        width: 325px;
+    }
+    
+    .why-grid > div{
+        width: 325px;
+    }
+
+    .why-grid{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 414px){
+    .footer-container{
+        flex-direction: column;
+    }
+    .footer-container > div{
+        width: 100%;
+    }
+}
+
 .popup-layer{
     width: 80%;
     z-index: 999;
@@ -468,3 +519,4 @@ form button:hover {
 .contact-pop-up-form form button {
     margin-top: 10px;
 }
+
