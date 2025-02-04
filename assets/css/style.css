@@ -476,6 +476,9 @@ form button:hover {
     .footer-container > div{
         width: 100%;
     }
+    .about-container{
+        margin: 0px !important;
+    }
 }
 
 .popup-layer{
