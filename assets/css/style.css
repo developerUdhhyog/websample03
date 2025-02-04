@@ -416,6 +416,10 @@ form button:hover {
         width: 16px;
         heigth: 16px;
     }
+
+    .contact-number-div div{
+        
+    }
 }
 @media screen and  (max-width: 1216px){
     .services-grid{
