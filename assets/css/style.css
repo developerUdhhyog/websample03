@@ -467,6 +467,12 @@ form button:hover {
     .why-grid{
         justify-content: center;
     }
+
+        header{
+        position: fixed !important;
+        z-index: 99 !important;
+        width: 100% !important;
+    }
 }
 
 @media screen and (max-width: 414px){
@@ -478,6 +484,11 @@ form button:hover {
     }
     .about-container{
         margin: 0px !important;
+    }
+        header{
+        position: fixed !important;
+        z-index: 99 !important;
+        width: 100% !important;
     }
 }
 
