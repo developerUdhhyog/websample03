@@ -409,8 +409,12 @@ form button:hover {
     .why-grid{
         justify-content: center;
     }
-    .contact-number-div p{
+    .contact-number-div div p{
         font-size: 1rem;
+    }
+    .contact-number-div div span svg{
+        width: 16px;
+        heigth: 16px;
     }
 }
 @media screen and  (max-width: 1216px){
@@ -484,8 +488,13 @@ form button:hover {
 }
 
 @media screen and (max-width: 414px){
-        .contact-number-div p{
+    .contact-number-div div p{
         font-size: 1rem;
+    }
+    
+    .contact-number-div div span svg{
+        width: 16px;
+        heigth: 16px;
     }
     .footer-container{
         flex-direction: column;
